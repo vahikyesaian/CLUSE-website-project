@@ -1,0 +1,73 @@
+#info:hover>.info{
+    opacity: 1;
+    visibility: visible;
+}
+.Choosebycolor:hover>p{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+.collection:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.womenWatch:hover>ul{
+   opacity: 1;
+   visibility: visible;
+}
+.menWatch:hover>ul{
+   opacity: 1;
+   visibility: visible;
+}
+.jewelery:hover>ul{
+   opacity: 1;
+   visibility: visible;
+}
+.giftshop:hover>ul{
+   opacity: 1;
+   visibility: visible;
+}
+
+.hero{
+   background-image: url(assets/img/Cluse.webp);
+   background-position: center;
+   background-size: cover;
+}
+.slick-next:before {
+   content: '>';
+   font-size: 35px;
+   line-height: 1;
+   opacity: .75;
+   color: black;
+   position: absolute;
+   left: -10px;
+   top: 0;
+}
+.slick-prev:before {
+   content: '<';
+   font-size: 35px;
+   line-height: 1;
+   opacity: .75;
+   color: black;
+   position: absolute;
+   right: -10px;
+   top: -1px;
+}
+figure:hover>img:nth-of-type(2){
+   opacity: 1;
+}
+.star>i{
+   color: rgb(135, 167, 141);
+}
+.shopthelookslider>figure{
+   cursor: pointer;
+}
+.shopthelookslider>figure:hover>span{
+   opacity: 1;
+}
+.para>figure>span{
+   opacity: 1;
+}
+/* span{
+   color: #dcdcdc3f;
+} */
